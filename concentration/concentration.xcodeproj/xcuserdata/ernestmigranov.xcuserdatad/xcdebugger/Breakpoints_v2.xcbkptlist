@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5BED3514-5B62-4A9A-AEB9-633965146CB8"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9442C340-8C52-431B-B46C-43054983E154"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "concentration/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "9442C340-8C52-431B-B46C-43054983E154 - aae9b093d4509668"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.game.getter : concentration.concentrationGame"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "9442C340-8C52-431B-B46C-43054983E154 - 3c69b77356ae921c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.game.setter : concentration.concentrationGame"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "9442C340-8C52-431B-B46C-43054983E154 - 610f1f248d9925f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.game.modify : concentration.concentrationGame"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "9442C340-8C52-431B-B46C-43054983E154 - 12b7a2a66c9f4a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.game.modify : concentration.concentrationGame with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "9442C340-8C52-431B-B46C-43054983E154 - c87fb473ccca0e94"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; concentration.ViewController"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "9442C340-8C52-431B-B46C-43054983E154 - 2fbfa1f8dea9601f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;concentration.ViewController&gt;"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "4"
+                  endingLineNumber = "4"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4F6AF36-0506-4EF5-8038-A50C9796A456"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "concentration/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "touches"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "E4F6AF36-0506-4EF5-8038-A50C9796A456 - c87fb473ccca019c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; concentration.ViewController"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "204">
+               </Location>
+               <Location
+                  uuid = "E4F6AF36-0506-4EF5-8038-A50C9796A456 - 2fbfa1f8dea96f17"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "concentration.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;concentration.ViewController&gt;"
+                  moduleName = "concentration"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ernestmigranov/Desktop/concentration/concentration/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "180">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
