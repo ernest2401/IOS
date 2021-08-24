@@ -25,7 +25,7 @@ class FilmsTableViewController: UITableViewController {
             //                print(film.title)
             //            })
             self.currentFilm = currentFilm
-            for i in 0...(currentFilm!.results.count - 1) {
+            for i in 0...((currentFilm?.results.count)! - 1) {
                 print(currentFilm!.results[i].title)
                 self.films.append(currentFilm!.results[i].title)
                 self.descriptions.append(currentFilm!.results[i].overview)
