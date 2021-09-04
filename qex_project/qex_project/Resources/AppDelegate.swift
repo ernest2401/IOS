@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  work2
+//  twitch
 //
-//  Created by Ernest Migranov on 29.06.2021.
+//  Created by Ernest Migranov on 03.09.2021.
 //
 
 import UIKit

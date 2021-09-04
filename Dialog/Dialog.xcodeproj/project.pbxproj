@@ -11,7 +11,49 @@
 		3C36C8EF2683359B0056B72D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C36C8EE2683359B0056B72D /* ContentView.swift */; };
 		3C36C8F12683359E0056B72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C36C8F02683359E0056B72D /* Assets.xcassets */; };
 		3C36C8F42683359E0056B72D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C36C8F32683359E0056B72D /* Preview Assets.xcassets */; };
+		3C5F4CD726DD43740036D337 /* XPersonAgreementViewControllerStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CD026DD43740036D337 /* XPersonAgreementViewControllerStyles.swift */; };
+		3C5F4CD826DD43740036D337 /* XPersonAgreementViewStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CD126DD43740036D337 /* XPersonAgreementViewStrings.swift */; };
+		3C5F4CD926DD43740036D337 /* XPersonAgreementViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CD226DD43740036D337 /* XPersonAgreementViewStyles.swift */; };
+		3C5F4CDA26DD43740036D337 /* XPersonAgreementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CD426DD43740036D337 /* XPersonAgreementView.swift */; };
+		3C5F4CDB26DD43740036D337 /* XPersonAgreementViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CD526DD43740036D337 /* XPersonAgreementViewStyle.swift */; };
+		3C5F4CDC26DD43740036D337 /* XPersonAgreementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CD626DD43740036D337 /* XPersonAgreementController.swift */; };
+		3C5F4CEF26DD437A0036D337 /* XAlertChopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CDF26DD437A0036D337 /* XAlertChopController.swift */; };
+		3C5F4CF026DD437A0036D337 /* XAlertChopViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CE026DD437A0036D337 /* XAlertChopViewDelegate.swift */; };
+		3C5F4CF126DD437A0036D337 /* XAlertChopViewStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CE226DD437A0036D337 /* XAlertChopViewStrings.swift */; };
+		3C5F4CF226DD437A0036D337 /* XAlertChopViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CE326DD437A0036D337 /* XAlertChopViewStyle.swift */; };
+		3C5F4CF326DD437A0036D337 /* XAlertChopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CE426DD437A0036D337 /* XAlertChopView.swift */; };
+		3C5F4CF426DD437A0036D337 /* XChopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CE626DD437A0036D337 /* XChopController.swift */; };
+		3C5F4CF526DD437A0036D337 /* XChopViewStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CE826DD437A0036D337 /* XChopViewStyles.swift */; };
+		3C5F4CF626DD437A0036D337 /* XChopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CE926DD437A0036D337 /* XChopView.swift */; };
+		3C5F4CF726DD437A0036D337 /* XChopViewStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CEA26DD437A0036D337 /* XChopViewStrings.swift */; };
+		3C5F4CF826DD437A0036D337 /* XChopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CEC26DD437A0036D337 /* XChopCell.swift */; };
+		3C5F4CF926DD437A0036D337 /* XChopCellStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CED26DD437A0036D337 /* XChopCellStyle.swift */; };
+		3C5F4CFA26DD437A0036D337 /* XChopMainViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CEE26DD437A0036D337 /* XChopMainViewDelegate.swift */; };
+		3C5F4D1826DD43B40036D337 /* Films.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4CFE26DD43B30036D337 /* Films.xcdatamodeld */; };
+		3C5F4D1926DD43B40036D337 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0026DD43B30036D337 /* Constants.swift */; };
+		3C5F4D1A26DD43B40036D337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0126DD43B30036D337 /* Assets.xcassets */; };
+		3C5F4D1B26DD43B40036D337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0226DD43B30036D337 /* LaunchScreen.storyboard */; };
+		3C5F4D1C26DD43B40036D337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0426DD43B30036D337 /* Main.storyboard */; };
+		3C5F4D1D26DD43B40036D337 /* NetworkFilmsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0726DD43B30036D337 /* NetworkFilmsManager.swift */; };
+		3C5F4D1E26DD43B40036D337 /* CurrentFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0926DD43B30036D337 /* CurrentFilm.swift */; };
+		3C5F4D1F26DD43B40036D337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0A26DD43B30036D337 /* AppDelegate.swift */; };
+		3C5F4D2026DD43B40036D337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0C26DD43B30036D337 /* ViewController.swift */; };
+		3C5F4D2126DD43B40036D337 /* FilmsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0D26DD43B30036D337 /* FilmsTableViewCell.swift */; };
+		3C5F4D2226DD43B40036D337 /* FilmsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0E26DD43B30036D337 /* FilmsTableViewController.swift */; };
+		3C5F4D2326DD43B40036D337 /* DescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D0F26DD43B30036D337 /* DescriptionViewController.swift */; };
+		3C5F4D2426DD43B40036D337 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C5F4D1026DD43B30036D337 /* Info.plist */; };
+		3C5F4D2526DD43B40036D337 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5F4D1126DD43B30036D337 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5F4D1626DD43B40036D337 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5F4D1226DD43B30036D337 /* Films.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3C43B3EF267B64DF00BA17E4;
+			remoteInfo = Films;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3C36C8E92683359B0056B72D /* Dialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,6 +62,39 @@
 		3C36C8F02683359E0056B72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C36C8F32683359E0056B72D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C36C8F52683359E0056B72D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5F4CD026DD43740036D337 /* XPersonAgreementViewControllerStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPersonAgreementViewControllerStyles.swift; sourceTree = "<group>"; };
+		3C5F4CD126DD43740036D337 /* XPersonAgreementViewStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPersonAgreementViewStrings.swift; sourceTree = "<group>"; };
+		3C5F4CD226DD43740036D337 /* XPersonAgreementViewStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPersonAgreementViewStyles.swift; sourceTree = "<group>"; };
+		3C5F4CD426DD43740036D337 /* XPersonAgreementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPersonAgreementView.swift; sourceTree = "<group>"; };
+		3C5F4CD526DD43740036D337 /* XPersonAgreementViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPersonAgreementViewStyle.swift; sourceTree = "<group>"; };
+		3C5F4CD626DD43740036D337 /* XPersonAgreementController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XPersonAgreementController.swift; sourceTree = "<group>"; };
+		3C5F4CDF26DD437A0036D337 /* XAlertChopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAlertChopController.swift; sourceTree = "<group>"; };
+		3C5F4CE026DD437A0036D337 /* XAlertChopViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAlertChopViewDelegate.swift; sourceTree = "<group>"; };
+		3C5F4CE226DD437A0036D337 /* XAlertChopViewStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAlertChopViewStrings.swift; sourceTree = "<group>"; };
+		3C5F4CE326DD437A0036D337 /* XAlertChopViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAlertChopViewStyle.swift; sourceTree = "<group>"; };
+		3C5F4CE426DD437A0036D337 /* XAlertChopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XAlertChopView.swift; sourceTree = "<group>"; };
+		3C5F4CE626DD437A0036D337 /* XChopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XChopController.swift; sourceTree = "<group>"; };
+		3C5F4CE826DD437A0036D337 /* XChopViewStyles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XChopViewStyles.swift; sourceTree = "<group>"; };
+		3C5F4CE926DD437A0036D337 /* XChopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XChopView.swift; sourceTree = "<group>"; };
+		3C5F4CEA26DD437A0036D337 /* XChopViewStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XChopViewStrings.swift; sourceTree = "<group>"; };
+		3C5F4CEC26DD437A0036D337 /* XChopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XChopCell.swift; sourceTree = "<group>"; };
+		3C5F4CED26DD437A0036D337 /* XChopCellStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XChopCellStyle.swift; sourceTree = "<group>"; };
+		3C5F4CEE26DD437A0036D337 /* XChopMainViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XChopMainViewDelegate.swift; sourceTree = "<group>"; };
+		3C5F4CFF26DD43B30036D337 /* Films.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Films.xcdatamodel; sourceTree = "<group>"; };
+		3C5F4D0026DD43B30036D337 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3C5F4D0126DD43B30036D337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C5F4D0326DD43B30036D337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C5F4D0526DD43B30036D337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5F4D0726DD43B30036D337 /* NetworkFilmsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkFilmsManager.swift; sourceTree = "<group>"; };
+		3C5F4D0926DD43B30036D337 /* CurrentFilm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentFilm.swift; sourceTree = "<group>"; };
+		3C5F4D0A26DD43B30036D337 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C5F4D0C26DD43B30036D337 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C5F4D0D26DD43B30036D337 /* FilmsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsTableViewCell.swift; sourceTree = "<group>"; };
+		3C5F4D0E26DD43B30036D337 /* FilmsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilmsTableViewController.swift; sourceTree = "<group>"; };
+		3C5F4D0F26DD43B30036D337 /* DescriptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewController.swift; sourceTree = "<group>"; };
+		3C5F4D1026DD43B30036D337 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5F4D1126DD43B30036D337 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3C5F4D1226DD43B30036D337 /* Films.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Films.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +111,9 @@
 		3C36C8E02683359B0056B72D = {
 			isa = PBXGroup;
 			children = (
+				3C5F4CFB26DD43B30036D337 /* Films */,
+				3C5F4CDD26DD437A0036D337 /* security */,
+				3C5F4CCE26DD43740036D337 /* agreement */,
 				3C36C8EB2683359B0056B72D /* Dialog */,
 				3C36C8EA2683359B0056B72D /* Products */,
 			);
@@ -67,6 +145,167 @@
 				3C36C8F32683359E0056B72D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C5F4CCE26DD43740036D337 /* agreement */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CCF26DD43740036D337 /* values */,
+				3C5F4CD326DD43740036D337 /* view */,
+				3C5F4CD626DD43740036D337 /* XPersonAgreementController.swift */,
+			);
+			name = agreement;
+			path = ../agreement;
+			sourceTree = "<group>";
+		};
+		3C5F4CCF26DD43740036D337 /* values */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CD026DD43740036D337 /* XPersonAgreementViewControllerStyles.swift */,
+				3C5F4CD126DD43740036D337 /* XPersonAgreementViewStrings.swift */,
+				3C5F4CD226DD43740036D337 /* XPersonAgreementViewStyles.swift */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		3C5F4CD326DD43740036D337 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CD426DD43740036D337 /* XPersonAgreementView.swift */,
+				3C5F4CD526DD43740036D337 /* XPersonAgreementViewStyle.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3C5F4CDD26DD437A0036D337 /* security */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CDE26DD437A0036D337 /* alert */,
+				3C5F4CE526DD437A0036D337 /* values */,
+				3C5F4CE726DD437A0036D337 /* view */,
+			);
+			name = security;
+			path = ../security;
+			sourceTree = "<group>";
+		};
+		3C5F4CDE26DD437A0036D337 /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CDF26DD437A0036D337 /* XAlertChopController.swift */,
+				3C5F4CE026DD437A0036D337 /* XAlertChopViewDelegate.swift */,
+				3C5F4CE126DD437A0036D337 /* view */,
+			);
+			path = alert;
+			sourceTree = "<group>";
+		};
+		3C5F4CE126DD437A0036D337 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CE226DD437A0036D337 /* XAlertChopViewStrings.swift */,
+				3C5F4CE326DD437A0036D337 /* XAlertChopViewStyle.swift */,
+				3C5F4CE426DD437A0036D337 /* XAlertChopView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3C5F4CE526DD437A0036D337 /* values */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CE626DD437A0036D337 /* XChopController.swift */,
+			);
+			path = values;
+			sourceTree = "<group>";
+		};
+		3C5F4CE726DD437A0036D337 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CE826DD437A0036D337 /* XChopViewStyles.swift */,
+				3C5F4CE926DD437A0036D337 /* XChopView.swift */,
+				3C5F4CEA26DD437A0036D337 /* XChopViewStrings.swift */,
+				3C5F4CEB26DD437A0036D337 /* cell */,
+				3C5F4CEE26DD437A0036D337 /* XChopMainViewDelegate.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		3C5F4CEB26DD437A0036D337 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CEC26DD437A0036D337 /* XChopCell.swift */,
+				3C5F4CED26DD437A0036D337 /* XChopCellStyle.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		3C5F4CFB26DD43B30036D337 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CFC26DD43B30036D337 /* Films */,
+				3C5F4D1226DD43B30036D337 /* Films.xcodeproj */,
+			);
+			name = Films;
+			path = ../Films;
+			sourceTree = "<group>";
+		};
+		3C5F4CFC26DD43B30036D337 /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CFD26DD43B30036D337 /* Resources */,
+				3C5F4D0626DD43B30036D337 /* Network */,
+				3C5F4D0826DD43B30036D337 /* Models */,
+				3C5F4D0A26DD43B30036D337 /* AppDelegate.swift */,
+				3C5F4D0B26DD43B30036D337 /* Controllers */,
+				3C5F4D1026DD43B30036D337 /* Info.plist */,
+				3C5F4D1126DD43B30036D337 /* SceneDelegate.swift */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		3C5F4CFD26DD43B30036D337 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4CFE26DD43B30036D337 /* Films.xcdatamodeld */,
+				3C5F4D0026DD43B30036D337 /* Constants.swift */,
+				3C5F4D0126DD43B30036D337 /* Assets.xcassets */,
+				3C5F4D0226DD43B30036D337 /* LaunchScreen.storyboard */,
+				3C5F4D0426DD43B30036D337 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C5F4D0626DD43B30036D337 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4D0726DD43B30036D337 /* NetworkFilmsManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		3C5F4D0826DD43B30036D337 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4D0926DD43B30036D337 /* CurrentFilm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C5F4D0B26DD43B30036D337 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4D0C26DD43B30036D337 /* ViewController.swift */,
+				3C5F4D0D26DD43B30036D337 /* FilmsTableViewCell.swift */,
+				3C5F4D0E26DD43B30036D337 /* FilmsTableViewController.swift */,
+				3C5F4D0F26DD43B30036D337 /* DescriptionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C5F4D1326DD43B30036D337 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F4D1726DD43B40036D337 /* Films.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -114,6 +353,12 @@
 			mainGroup = 3C36C8E02683359B0056B72D;
 			productRefGroup = 3C36C8EA2683359B0056B72D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3C5F4D1326DD43B30036D337 /* Products */;
+					ProjectRef = 3C5F4D1226DD43B30036D337 /* Films.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3C36C8E82683359B0056B72D /* Dialog */,
@@ -121,12 +366,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3C5F4D1726DD43B40036D337 /* Films.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Films.app;
+			remoteRef = 3C5F4D1626DD43B40036D337 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		3C36C8E72683359B0056B72D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3C36C8F42683359E0056B72D /* Preview Assets.xcassets in Resources */,
+				3C5F4D1C26DD43B40036D337 /* Main.storyboard in Resources */,
+				3C5F4D2426DD43B40036D337 /* Info.plist in Resources */,
+				3C5F4D1B26DD43B40036D337 /* LaunchScreen.storyboard in Resources */,
+				3C5F4D1A26DD43B40036D337 /* Assets.xcassets in Resources */,
 				3C36C8F12683359E0056B72D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,12 +397,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5F4D2326DD43B40036D337 /* DescriptionViewController.swift in Sources */,
+				3C5F4CD826DD43740036D337 /* XPersonAgreementViewStrings.swift in Sources */,
+				3C5F4D1926DD43B40036D337 /* Constants.swift in Sources */,
+				3C5F4CF726DD437A0036D337 /* XChopViewStrings.swift in Sources */,
+				3C5F4CDB26DD43740036D337 /* XPersonAgreementViewStyle.swift in Sources */,
+				3C5F4D2526DD43B40036D337 /* SceneDelegate.swift in Sources */,
+				3C5F4D1D26DD43B40036D337 /* NetworkFilmsManager.swift in Sources */,
+				3C5F4D1826DD43B40036D337 /* Films.xcdatamodeld in Sources */,
+				3C5F4CF226DD437A0036D337 /* XAlertChopViewStyle.swift in Sources */,
+				3C5F4CF926DD437A0036D337 /* XChopCellStyle.swift in Sources */,
+				3C5F4D2026DD43B40036D337 /* ViewController.swift in Sources */,
 				3C36C8EF2683359B0056B72D /* ContentView.swift in Sources */,
+				3C5F4CF426DD437A0036D337 /* XChopController.swift in Sources */,
+				3C5F4D2226DD43B40036D337 /* FilmsTableViewController.swift in Sources */,
+				3C5F4CFA26DD437A0036D337 /* XChopMainViewDelegate.swift in Sources */,
+				3C5F4CF026DD437A0036D337 /* XAlertChopViewDelegate.swift in Sources */,
+				3C5F4CF126DD437A0036D337 /* XAlertChopViewStrings.swift in Sources */,
+				3C5F4D1F26DD43B40036D337 /* AppDelegate.swift in Sources */,
+				3C5F4CF626DD437A0036D337 /* XChopView.swift in Sources */,
+				3C5F4CEF26DD437A0036D337 /* XAlertChopController.swift in Sources */,
+				3C5F4D1E26DD43B40036D337 /* CurrentFilm.swift in Sources */,
+				3C5F4CF526DD437A0036D337 /* XChopViewStyles.swift in Sources */,
+				3C5F4CD726DD43740036D337 /* XPersonAgreementViewControllerStyles.swift in Sources */,
+				3C5F4CDC26DD43740036D337 /* XPersonAgreementController.swift in Sources */,
+				3C5F4CDA26DD43740036D337 /* XPersonAgreementView.swift in Sources */,
 				3C36C8ED2683359B0056B72D /* DialogApp.swift in Sources */,
+				3C5F4CF326DD437A0036D337 /* XAlertChopView.swift in Sources */,
+				3C5F4CF826DD437A0036D337 /* XChopCell.swift in Sources */,
+				3C5F4D2126DD43B40036D337 /* FilmsTableViewCell.swift in Sources */,
+				3C5F4CD926DD43740036D337 /* XPersonAgreementViewStyles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3C5F4D0226DD43B30036D337 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5F4D0326DD43B30036D337 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3C5F4D0426DD43B30036D337 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5F4D0526DD43B30036D337 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C36C8F62683359E0056B72D /* Debug */ = {
@@ -328,6 +634,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C5F4CFE26DD43B30036D337 /* Films.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C5F4CFF26DD43B30036D337 /* Films.xcdatamodel */,
+			);
+			currentVersion = 3C5F4CFF26DD43B30036D337 /* Films.xcdatamodel */;
+			path = Films.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3C36C8E12683359B0056B72D /* Project object */;
 }
