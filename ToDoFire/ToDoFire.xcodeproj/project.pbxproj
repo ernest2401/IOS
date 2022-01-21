@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C127C4D2720633C002CCC4D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C127C4C2720633C002CCC4D /* RegisterViewController.swift */; };
+		3C127C4F272066BB002CCC4D /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C127C4E272066BB002CCC4D /* InformationViewController.swift */; };
 		3C43B3C5266F96AC00BA17E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43B3C4266F96AC00BA17E4 /* AppDelegate.swift */; };
 		3C43B3C7266F96AC00BA17E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43B3C6266F96AC00BA17E4 /* SceneDelegate.swift */; };
 		3C43B3C9266F96AC00BA17E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C43B3C8266F96AC00BA17E4 /* LoginViewController.swift */; };
@@ -23,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		18237F4E25C9B8DFA1C9672D /* Pods-ToDoFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoFire.release.xcconfig"; path = "Target Support Files/Pods-ToDoFire/Pods-ToDoFire.release.xcconfig"; sourceTree = "<group>"; };
+		3C127C4C2720633C002CCC4D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		3C127C4E272066BB002CCC4D /* InformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationViewController.swift; sourceTree = "<group>"; };
 		3C43B3C1266F96AC00BA17E4 /* ToDoFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C43B3C4266F96AC00BA17E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C43B3C6266F96AC00BA17E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 			children = (
 				3C43B3C8266F96AC00BA17E4 /* LoginViewController.swift */,
 				3C43B3DB266F9C3F00BA17E4 /* TasksViewController.swift */,
+				3C127C4C2720633C002CCC4D /* RegisterViewController.swift */,
+				3C127C4E272066BB002CCC4D /* InformationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -248,10 +254,12 @@
 				3C43B3C9266F96AC00BA17E4 /* LoginViewController.swift in Sources */,
 				3C43B3CF266F96AC00BA17E4 /* ToDoFire.xcdatamodeld in Sources */,
 				3C43B3DC266F9C3F00BA17E4 /* TasksViewController.swift in Sources */,
+				3C127C4D2720633C002CCC4D /* RegisterViewController.swift in Sources */,
 				3C43B3C5266F96AC00BA17E4 /* AppDelegate.swift in Sources */,
 				3C43B3E22678D7B300BA17E4 /* Task.swift in Sources */,
 				3C43B3C7266F96AC00BA17E4 /* SceneDelegate.swift in Sources */,
 				3C43B3E42678D7BF00BA17E4 /* User.swift in Sources */,
+				3C127C4F272066BB002CCC4D /* InformationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

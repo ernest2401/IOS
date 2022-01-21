@@ -11,6 +11,14 @@ import Firebase
 class LoginViewController: UIViewController {
     
     let segueIdentifier = "tasksSegue"
+    var ref: DatabaseReference!
+    
+    let button: UIButton = {
+        let button = UIButton()
+        button.setTitle("Добавить", for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
     
     @IBOutlet weak var warnLabel: UILabel!
     
@@ -45,22 +53,22 @@ class LoginViewController: UIViewController {
             displayWarningLabel(withText: "Info is incorrect")
             return
         }
-        
-        FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password,completion: {(user, error) in
-            if error == nil {
-                if user != nil {
-                } else {
-                    print("User is not created")
-                }
-            }
-            else {
+//        self.performSegue(withIdentifier: "registerSegue", sender: nil)
+//
+        FirebaseAuth.Auth.auth().createUser(withEmail: email, password: password,completion: { [weak self] (user, error) in
+            guard error == nil, user != nil else {
                 print(error!.localizedDescription)
+                return
             }
+            let userRef = self?.ref.child((user?.user.uid)!)
+            userRef?.setValue(["email": user?.user.email])
         })
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        ref = Database.database().reference(withPath: "users")
         
         warnLabel.alpha = 0
         FirebaseAuth.Auth.auth().addStateDidChangeListener({ (auth,user) in
