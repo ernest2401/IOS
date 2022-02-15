@@ -13,32 +13,18 @@ protocol ArticlesDisplayLogic: class {
 
 class ArticlesViewController: UIViewController {
     
-    var table = UITableView()
+    private var table = UITableView()
     
-    private var interactor: ArticlesBusinessLogic?
+    var interactor: ArticlesBusinessLogic?
     private var dataToDisplay = [ArticleCellModel]()
-    private var router: ArticlesRoutingLogic?
+    var router: ArticlesRoutingLogic?
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        setup()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
-        setup()
-    }
-    
-    private func setup(){
-        let viewController = self
-        let presenter = ArticlesPresenter()
-        let interactor = ArticlesInteractor()
-        let router = ArticlesRouter()
-        interactor.presenter = presenter
-        presenter.viewController = viewController
-        viewController.interactor = interactor
-        router.viewController = viewController
-        viewController.router = router
     }
     
     override func viewDidLoad() {
@@ -48,6 +34,15 @@ class ArticlesViewController: UIViewController {
         setConstraints()
         interactor?.fetchArticles()
 
+    }
+    
+    func setConstraints(){
+        NSLayoutConstraint.activate([
+            table.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
+            table.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
+            table.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
+            table.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0),
+        ])
     }
 }
 
@@ -80,7 +75,7 @@ extension ArticlesViewController: UITableViewDelegate,UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.router?.navigateToDetails(articleId: dataToDisplay[indexPath.row].articleId)
+        self.router?.navigateToDetails(articleId: dataToDisplay[indexPath.row].articleId,imageBool: dataToDisplay[indexPath.row].imageBool)
     }
     
     private func setupTableView(){
@@ -93,13 +88,6 @@ extension ArticlesViewController: UITableViewDelegate,UITableViewDataSource{
         self.view.addSubview(table)
     }
     
-    func setConstraints(){
-        NSLayoutConstraint.activate([
-            table.topAnchor.constraint(equalTo: view.topAnchor, constant: 0),
-            table.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 0),
-            table.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: 0),
-            table.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: 0),
-        ])
-    }
+    
 }
 

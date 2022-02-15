@@ -12,4 +12,5 @@ struct ArticleCellModel{
     let articleId: Int
     let titleText: String
     let bodyText: String
+    let imageBool: Bool
 }

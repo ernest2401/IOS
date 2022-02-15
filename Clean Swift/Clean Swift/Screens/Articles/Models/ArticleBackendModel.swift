@@ -13,4 +13,5 @@ struct ArticleBackendModel{
     let text: String
     let raiting: Int
     let symbolCount: Int
+    let image: Bool
 }

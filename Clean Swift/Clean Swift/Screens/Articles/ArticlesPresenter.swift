@@ -23,7 +23,8 @@ extension ArticlesPresenter: ArticlesPresentationLogic{
         let viewModel = data.map { model -> ArticleCellModel in
             let cellModel = ArticleCellModel(articleId:model.articleId,
                                              titleText: model.name,
-                                             bodyText: model.text)
+                                             bodyText: model.text,
+                                             imageBool: model.image)
             return cellModel
         }
         
