@@ -10,7 +10,7 @@ import XCTest
 
 @testable import Clean_Swift
 
-class ArticleDetailsPresenter: XCTestCase {
+class ArticleDetailsPresenterTest: XCTestCase {
     
     private var sut: ArticleDetailsPresentationLogicSpy!
     
